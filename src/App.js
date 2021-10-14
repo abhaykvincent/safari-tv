@@ -9,6 +9,7 @@ import './App.scss';
 
 import Header from './components/all-links/header/header';
 import AllLinks from './components/all-links/all-links'
+import Home from './components/all-links/feature/home/home';
 function App() {
   return (
     <div className="App">
@@ -19,9 +20,8 @@ function App() {
           <Switch>
 
             <Route exact path="/">
-              <h1>
-              SAFARI  TV
-            </h1></Route>
+              <Home></Home>
+            </Route>
 
             <Route path="/sancharam">
               <h1>
@@ -64,6 +64,101 @@ function App() {
 
 
           </Switch>
+        </div>
+        <div className="featured">
+          <div className="featured-sections">
+            <div className="featured-section featured__buy-dvd      no-scrollbar">
+              <div className="featured-meta">Buy DVD</div>
+              <div className="featured-products">
+                <div className="featured-product">
+                  <div className="product-cover"></div>
+                  <div className="product-meta">Sancharam VOL-7</div>
+                </div>
+                <div className="featured-product">
+                  <div className="product-cover"></div>
+                  <div className="product-meta">Irupatham Noottandu</div>
+                </div>
+                <div className="featured-product">
+                  <div className="product-cover"></div>
+                  <div className="product-meta">Sancharam VOL-6</div>
+                </div>
+                <div className="featured-product">
+                  <div className="product-cover"></div>
+                  <div className="product-meta">Freedom at Midnight</div>
+                </div>
+                <div className="featured-product">
+                  <div className="product-cover"></div>
+                  <div className="product-meta">Animal Kingdom</div>
+                </div>
+                <div className="featured-product">
+                  <div className="product-cover"></div>
+                  <div className="product-meta">Animal Kingdom</div>
+                </div>
+                
+              </div>
+            </div>
+            <div className="featured-section featured__buy-episode  no-scrollbar">
+              <div className="featured-meta">Buy Episodes</div>
+              <div className="featured-products">
+                <div className="featured-product">
+                  <div className="product-cover"></div>
+                  <div className="product-meta">Sancharam VOL-7</div>
+                </div>
+                <div className="featured-product">
+                  <div className="product-cover"></div>
+                  <div className="product-meta">Irupatham Noottandu</div>
+                </div>
+                <div className="featured-product">
+                  <div className="product-cover"></div>
+                  <div className="product-meta">Sancharam VOL-6</div>
+                </div>
+                <div className="featured-product">
+                  <div className="product-cover"></div>
+                  <div className="product-meta">Freedom at Midnight</div>
+                </div>
+                <div className="featured-product">
+                  <div className="product-cover"></div>
+                  <div className="product-meta">Animal Kingdom</div>
+                </div>
+                <div className="featured-product">
+                  <div className="product-cover"></div>
+                  <div className="product-meta">Freedom at Midnight</div>
+                </div>
+                
+              </div>
+            </div>
+            <div className="featured-section featured__buy-dvd      no-scrollbar">
+              <div className="featured-meta">Buy DVD</div>
+              <div className="featured-products">
+                <div className="featured-product">
+                  <div className="product-cover"></div>
+                  <div className="product-meta">Sancharam VOL-7</div>
+                </div>
+                <div className="featured-product">
+                  <div className="product-cover"></div>
+                  <div className="product-meta">Irupatham Noottandu</div>
+                </div>
+                <div className="featured-product">
+                  <div className="product-cover"></div>
+                  <div className="product-meta">Sancharam VOL-6</div>
+                </div>
+                <div className="featured-product">
+                  <div className="product-cover"></div>
+                  <div className="product-meta">Freedom at Midnight</div>
+                </div>
+                <div className="featured-product">
+                  <div className="product-cover"></div>
+                  <div className="product-meta">Animal Kingdom</div>
+                </div>
+                <div className="featured-product">
+                  <div className="product-cover"></div>
+                  <div className="product-meta">Freedom at Midnight</div>
+                </div>
+                
+              </div>
+            </div>
+            
+          </div>
         </div>
         <div className="footer">
 

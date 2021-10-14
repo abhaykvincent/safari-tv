@@ -1,0 +1,47 @@
+.home{
+    .splash{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 8px*5;
+        .meta{
+            display: grid;
+            justify-items: end;
+            align-content: space-between;
+            .next-program{
+                top: 0px;
+                background:url('https://c8.alamy.com/zooms/9/44793a44c243452993b3fa61073617b5/2ard92m.jpg');
+                background-size: auto 110%;;
+                background-position: right center;
+                height: 1.3em;
+                width: 7vw;
+                transform: translateX(8px*7) translateY(-8px*5);
+                text-align: right;
+                color: rgb(0, 0, 0);
+                font-weight: bold;
+                padding: 1em 2em;
+                font-size: 1em;
+                border-radius: 4px;
+            }
+        }
+        .legacy{
+            .player{
+                width: 50vw;
+                height: 30vw;
+                background-color:  rgb(255, 217, 0);
+            }
+        }
+    }
+    .featured-programs{
+        .featured-programs{
+            display:grid;
+            .featured-program{
+                .program-cover{
+
+                }
+                .program-episode{
+                    
+                }
+            }
+        }
+    }
+}

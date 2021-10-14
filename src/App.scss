@@ -1,13 +1,94 @@
+.App{
+  width: 100vw;height: 100vh;
+  overflow-y: scroll;
+}
 .pages{
-  min-height: 1000px;
-  padding: 8px 8px*16;
+  min-height: 100px;
+  padding: 8px 8px*5 8px 8px*16;
   padding-top: 100px + 8px*5;
   h1{
-    font-size: 3rem;
+    font-size: 2rem;
     color: rgba(0, 0, 0, 0.75);
   }
 }
+.featured{
+  padding: 8px 128px;;
+  .featured-section{
+    margin-top: 8px*5;
+    width: calc(100vw - 128px);
+    overflow-x: scroll;
+    .featured-meta{
+      font-size: 1.5em;
+      font-weight: bold;
+      margin-top: 8px*5;
+    }
+    .featured-products{
+      display: flex;
+      grid-gap: 8px*2;
+      margin-top: 8px*4;
+      .featured-product{
+
+        &:nth-child(1){
+          
+        .product-cover{
+          height: 8px*18;
+          width: 8px*30;
+          margin-top: 8px*0;
+
+        }
+        }
+        .product-cover{
+          height: 8px*15;
+          width: 8px*20;
+          margin-top: 8px*3;
+          background-color:rgb(36, 33, 18);
+          border-radius: 8px;
+          background-size:auto 100% ;
+          background-position: center;
+        }
+        .product-meta{
+          margin-top: 8px*2;
+        }
+      }
+    }
+
+    &.featured__buy-dvd{
+      .featured-products{
+        .featured-product{
+
+          &:nth-child(1){
+              .product-cover{
+                background-image: url('./images/dvds/20-th-century-v-11.jpeg');
+              }
+          }
+          &:nth-child(2){
+              .product-cover{
+                background-image: url('./images/dvds/animal-kingdom3.jpeg');
+              }
+          }
+          &:nth-child(3){
+              .product-cover{
+                background-image: url('./images/dvds/freedom@mid_night.jpeg');
+              }
+          }
+          &:nth-child(4){
+              .product-cover{
+                background-image: url('./images/dvds/vol-15.jpeg');
+              }
+          }
+          &:nth-child(5){
+              .product-cover{
+                background-image: url('./images/dvds/ww25.jpeg');
+              }
+          }
+        }
+        
+      }
+    }
+  }
+}
 .footer{
-  background-color:black;
+  margin-top: 8px*5;
+  background-color:rgb(32, 31, 31);
   color: white;
 }
