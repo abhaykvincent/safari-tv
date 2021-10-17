@@ -9,6 +9,11 @@ function Header() {
             <div className="horizontal">
                 <Link to="/">Home</Link>
                 <Link to="/sancharam">Sancharam</Link>
+                <Link to="/episodes">Episodes</Link>
+                <Link to="/schedule">Schedule</Link>
+
+                <Link to="/buy/dvd">Buy Books</Link>
+                <Link to="/buy/books">Buy Books</Link>
             </div>
             <div className="vertical">
                 <div className="logo"></div>

@@ -1,0 +1,67 @@
+.header{
+    position: fixed;
+    width: 100vw;
+    top:0px;
+    border-bottom: 1px solid rgb(255, 217, 0.5);;
+    .horizontal{
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: start;
+        align-content: center;
+        height: 40px*2;
+        background-color:rgba(0, 0, 0, 1);
+        padding-left: 8px*15;
+    }
+    .vertical{
+        display: grid;
+        align-content: start;
+        position: fixed;
+        left:0px;
+        padding-top:8px*5;
+        margin-top: 2px;
+        height:100vh;
+        background:#11111100;
+
+        .logo{
+            width: 8px*15 - 8px*2;
+            height: 60px;
+            background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Safari_logo_new_25-07-2015.png/200px-Safari_logo_new_25-07-2015.png');
+            background-size: 120%;
+            background-repeat: no-repeat;
+            background-position: left -8px*1.5 top -8px*1.5;
+            margin-left: 8px;
+        }
+        .social-media{
+            display: grid;
+            grid-gap: 8px;
+            margin-left: 8px*3;
+            margin-top: 8px*2;
+            .media{
+                width: 8px*3;
+                height: 8px*3;
+                background-repeat: no-repeat;
+                background-size: 100%;
+                opacity: 0.5;
+                transform: rotate(90deg);
+                &:nth-child(1){
+                    width: 8px*3;
+                    height: 8px*4;
+                    background-image:url('../../images/social-icons/Icon\ ionic-logo-youtube.png')
+                }
+                &:nth-child(2){
+                    background-image:url('../../images/social-icons/Icon\ awesome-facebook-square.png')
+                }
+                &:nth-child(3){
+                    background-image:url('../../images/social-icons/Icon\ awesome-twitter-square.png')
+                }
+                &:nth-child(4){
+                    background-image:url('../../images/social-icons/Exclusion\ 2.png')
+                }
+            }
+        }
+    }
+    a{
+        display:inline-block;
+        margin: 8px;
+    }
+}

@@ -1,0 +1,76 @@
+.program-schedules{
+    width: calc(100%  - 8px*20);
+    margin-top: 4px*5;
+    background-color: rgba(0, 0, 0, 0.4);;
+    padding: 8px*5;
+    .program{
+        display:grid;
+        grid-template-columns: 200px auto 300px;
+        align-content:center;
+        width: 100%;
+        margin-bottom: 8px;
+
+        &:nth-child(1){
+            .program-cover{
+                background-image: url('https://www.safaritvchannel.com/images/progrmsicon/25748_Holyland.jpg');
+            
+                }
+        }
+        &:nth-child(2){
+            .program-cover{
+                background-image: url('https://www.safaritvchannel.com/images/progrmsicon/96087_AROUND-THE-WORLD.jpg');
+            }
+        }
+        &:nth-child(3){
+            .program-cover{
+                background-image: url('https://www.safaritvchannel.com/images/progrmsicon/85310_14231_animal_kingdom.png');
+            }
+            
+        }
+        &:nth-child(4){
+            .program-cover{
+                background-image: url('https://www.safaritvchannel.com/images/progrmsicon/62959_AA-YATHRAYIL.jpg');
+            }
+            
+        }
+        .program-cover{
+            position: relative;
+            height: 100px;
+            width: 200px;
+            background-color: black;;
+            border-radius: 4px;
+            background-size: 100%;
+            .label{
+                display: inline-block;
+                position: absolute;
+                bottom: 10px;
+                left:-8px*2;
+                font-size: 1em;
+                color:black;
+                font-weight: bold;
+                background-color: rgb(255, 217, 0.5);
+                padding: 4px 8px;
+                border-radius: 2px;
+            }
+        }
+        .program-name{
+            display:grid;
+            align-content:center;
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: bold;
+            padding-left: 8px*5;
+        }
+        .program-time{
+            display:grid; 
+            align-content:center;
+            font-size: 1.2em;
+            background-color: rgb(255, 217, 0.5);
+            color: black;;
+            font-weight: bold;
+            text-align: center;
+            margin: 8px*3 0px;
+            border-radius: 4px;
+        }
+    }
+}

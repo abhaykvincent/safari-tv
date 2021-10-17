@@ -1,0 +1,39 @@
+.home{
+    .splash{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 8px*4;
+        margin-bottom: 8px*5;
+        .meta{
+            display: grid;
+            justify-items: end;
+            align-content: space-between;
+            .now-showing{
+                top: 0px;
+                background:url('https://www.safaritvchannel.com/uploads/products/36231_SANCHARIYUDE-DAIRY--KURIPPUKAL.jpg');
+                
+                background-size: auto 110%;;
+                background-position: right center;
+                transform: translateX(8px*0) translateY(-8px*2);
+                text-align: right;
+                color: rgb(255, 255, 255);
+                font-weight: bold;
+                padding: 6em 8px 8px 6em;
+                font-size: 1em;
+                border-radius: 4px;
+                border: 1px solid black;
+                opacity: 0.9;
+            }
+        }
+        .legacy{
+            .player{
+                width: 52vw;
+                height: 26vw;
+                background: url('../../../images/live/live-stream.png');
+                background-size:100%;
+                border-radius: 4px;
+            }
+        }
+    }
+    
+}

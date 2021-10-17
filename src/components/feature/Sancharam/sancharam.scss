@@ -1,0 +1,101 @@
+.sancharam{
+    .splash{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 8px*5;
+        margin-bottom: 8px*5;
+        .meta{
+            display: grid;
+            justify-items: end;
+            align-content: space-between;
+            justify-items: center;
+
+            .title{
+                padding-right: 40px*2;
+            }
+            .sancharam-countries{
+                width: 100%;overflow-x: scroll;
+                margin-top: 8px*5;
+                .sancharam-countries__wrap{
+                    display: flex;
+                }
+                .sancharam-country{
+                    margin-right: 8px;
+                    .country-cover{
+                        width: 150px;
+                        height: 100px;
+                        background-size: 100%;
+                    }
+                    .country-name{
+                        font-weight: bold;
+                        margin: 8px 0px;
+                    }
+                    .buy-episode{
+
+            display: inline-block;
+            padding: 6px 8px;
+            font-size: 0.8em;
+            font-weight: bold;
+            opacity: 0.9;
+            margin-top: 8px;
+            background-color: rgb(255, 217, 0);
+            color: rgb(0, 0, 0);
+            border-radius: 4px;
+            margin-bottom: 8px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+                    }
+                    &:nth-child(1){
+                        .country-cover{
+                          background-image: url('https://www.safaritvchannel.com/uploads/products/thumb/husky-ride-norway-40-1385463929.jpg');
+                        }
+                    }
+                    &:nth-child(2){
+                        .country-cover{
+                          background-image: url('https://www.safaritvchannel.com/uploads/products/thumb/Butrint-Amphitheatre-Albania.jpg');
+                        }
+                    }
+                    &:nth-child(3){
+                        .country-cover{
+                          background-image: url('https://www.safaritvchannel.com/uploads/products/thumb/f16b87be715d242c320b8bf24bfbec81.jpg');
+                        }
+                    }
+                    &:nth-child(4){
+                        .country-cover{
+                          background-image: url('https://www.safaritvchannel.com/uploads/products/thumb/azerbaijan.jpg');
+                        }
+                    }
+                    &:nth-child(5){
+                        .country-cover{
+                          background-image: url('https://www.safaritvchannel.com/uploads/products/thumb/what-to-wear-in-brunei-010.jpg');
+                        }
+                    }
+                  }
+            }
+            .now-showing{
+                top: 0px;
+                background:url('https://www.safaritvchannel.com/uploads/products/kiev.jpg');
+                background-size: auto 0%;;
+                background-position: right center;
+                transform: translateX(8px*0) translateY(-8px*2);
+                text-align: right;
+                color: rgb(255, 255, 255);
+                font-weight: bold;
+                padding: 6em 8px 8px 6em;
+                font-size: 1em;
+                border-radius: 4px;
+                border: 1px solid black;
+                opacity: 0.9;
+            }
+        }
+        .legacy{
+            .sancharam-cover{
+                width: 40vw;
+                height: 26vw;
+                background: url('https://www.safaritvchannel.com/uploads/products/18485_sancharam_new2.png');
+                background-size:100%;
+                border-radius: 4px;
+            }
+        }
+    }
+    
+}

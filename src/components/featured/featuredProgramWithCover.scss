@@ -1,0 +1,227 @@
+
+.featured-programs{
+    padding: 8px 0px;;
+    .featured-program{
+      margin-top: 8px*5;
+      width: calc(100vw - 128px);
+      overflow-x: scroll;
+      .featured-program-meta{
+        font-size: 2em;
+        font-weight: bold;
+        margin-top: 8px*-5;
+        margin-bottom: 8px*5;
+        padding-bottom: 8px*4;
+        padding-left: 8px;
+        border-bottom: 2px solid rgb(255, 217, 0);
+      }
+      .program-episodes{
+        display: flex;
+        grid-gap: 8px*2;
+        margin-top: 8px*4;
+        .program-episode{
+  
+            margin-top: 8px;
+          &:nth-child(1){
+            margin-top: 8px*7;
+            margin-right: 8px*2;
+            
+            .program-cover{
+                height: 8px*25;
+                width: 8px*45;
+                margin-top: -8px*5;
+                background-image: url('https://www.safaritvchannel.com/uploads/products/mc_.jpg');
+                
+            }
+          }
+          .episode-number{
+            display: inline-block;
+            padding: 6px 8px;
+            font-size: 0.8em;
+            font-weight: bold;
+            opacity: 0.9;
+            margin-top: 8px;
+            background-color: rgb(248, 224, 89);
+            color: rgb(0, 0, 0);
+            border-radius: 4px;
+            margin-bottom: 8px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+          }
+          .program-cover{
+            height: 8px*20;
+            width: 8px*35;
+            background-color:rgb(36, 33, 18);
+            border-radius: 8px;
+            background-size:auto 100% ;
+            background-position: center;
+          }
+          .program-meta{
+            margin-top: 8px*2;
+          }
+        }
+        .program-episode{
+            .episode-name{
+                font-size: 1.2em;
+                font-weight: bold;
+            }
+            .episode-premier{
+                display: inline-block;
+                padding: 4px 8px;
+                font-size: 0.8em;
+                opacity: 0.3;
+                margin-top: 8px;
+                background-color: rgba(0, 0, 0, 0.822);
+                color: white;
+                border-radius: 4px;
+            }
+            &:nth-child(1){
+                /* .program-cover{
+                  background-image: url('https://safaritvoldepisode.in/safaritvchannel/videos/movie-classic/images/28_movie-classic.jpg');
+                } */
+            }
+            &:nth-child(2){
+              .episode-premier{
+                opacity: 0.6;
+              }
+                .program-cover{
+                  background-image: url('https://safaritvoldepisode.in/safaritvchannel/videos/movie-classic/images/26_movie-classic.jpg');
+                }
+            }
+            &:nth-child(3){
+                .program-cover{
+                  background-image: url('https://safaritvoldepisode.in/safaritvchannel/videos/movie-classic/images/25_movie-classic.jpg');
+                }
+            }
+            &:nth-child(4){
+                .program-cover{
+                  background-image: url('https://safaritvoldepisode.in/safaritvchannel/videos/movie-classic/images/28_movie-classic.jpg');
+                }
+            }
+            &:nth-child(5){
+                .program-cover{
+                  background-image: url('https://safaritvoldepisode.in/safaritvchannel/videos/movie-classic/images/24_movie-classic.jpg');
+                }
+            }
+          }
+      }
+  
+    }
+  }
+.featured-program{
+
+  &:nth-child(2){
+    .program-episode{
+  
+      margin-top: 8px;
+    &:nth-child(1){
+      .program-cover{
+          height: 8px*25;
+          width: 8px*45;
+          margin-top: -8px*5;
+          background-image: url('https://www.safaritvchannel.com/uploads/products/40055_Charitram-Enniloode.jpg') !important;
+          
+      }
+    }
+    &:nth-child(2){
+      .program-cover{
+          background-image: url('https://www.safaritvchannel.com/uploads/products/KN_12.jpg') !important;
+          
+      }
+    }
+    &:nth-child(2){
+      .program-cover{
+          background-image: url('https://www.safaritvchannel.com/uploads/products/GKM_16.jpg') !important;
+          
+      }
+    }
+    &:nth-child(3){
+      .program-cover{
+          background-image: url('https://www.safaritvchannel.com/uploads/products/GKM_14.jpg') !important;
+          
+      }
+    }
+    &:nth-child(4){
+      .program-cover{
+          background-image: url('https://www.safaritvchannel.com/uploads/products/SC_22.jpg') !important;
+          
+      }
+    }
+    &:nth-child(5){
+      .program-cover{
+          background-image: url('https://www.safaritvchannel.com/uploads/products/GP_02.jpg') !important;
+          
+      }
+    }
+
+  }
+  }
+  &:nth-child(3){
+    .program-episode{
+      &:nth-child(1){
+        .program-cover{
+            background-image: url('https://www.safaritvchannel.com/uploads/products/14231_animal_kingdom.png') !important;
+            
+        }
+      }
+      &:nth-child(2){
+        .program-cover{
+            background-image: url('https://safaritvoldepisode.in/safaritvchannel/videos/animal_kingdom/images/330_animal_kingdom.jpg') !important;
+            
+        }
+      }
+      &:nth-child(3){
+        .program-cover{
+            background-image: url('https://safaritvoldepisode.in/safaritvchannel/videos/animal_kingdom/images/329_animal_kingdom.jpg') !important;
+            
+        }
+      }
+      &:nth-child(4){
+        .program-cover{
+            background-image: url('https://safaritvoldepisode.in/safaritvchannel/videos/animal_kingdom/images/327_animal_kingdom.jpg') !important;
+            
+        }
+      }
+      &:nth-child(5){
+        .program-cover{
+            background-image: url('https://safaritvoldepisode.in/safaritvchannel/videos/animal_kingdom/images/326_animal_kingdom.jpg') !important;
+            
+        }
+      }
+    }
+
+  }
+  &:nth-child(4){
+    .program-episode{
+      &:nth-child(1){
+        .program-cover{
+            background-image: url('https://www.safaritvchannel.com/uploads/products/83713_movies_on_the_.jpg') !important;
+            
+        }
+      }
+    }
+
+  }
+  &:nth-child(5){
+    .program-episode{
+      &:nth-child(1){
+        .program-cover{
+            background-image: url('https://www.safaritvchannel.com/uploads/products/46794_charithram_chalachithram.png') !important;
+            
+        }
+      }
+    }
+
+  }
+  &:nth-child(6){
+    .program-episode{
+      &:nth-child(1){
+        .program-cover{
+            background-image: url('https://www.safaritvchannel.com/uploads/products/64838_SMRITHI.png') !important;
+            
+        }
+      }
+    }
+
+  }
+
+
+}

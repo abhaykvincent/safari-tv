@@ -13,7 +13,6 @@ function AllLinks() {
           <Link to="/schedule">Schedule</Link>
           <Link to="/programs">Programs</Link>
 
-          <Link to="/buy/episode">Buy Episode</Link>
           <Link to="/buy/dvd">Buy DVD</Link>
           <Link to="/buy/books">Buy Books</Link>
 
