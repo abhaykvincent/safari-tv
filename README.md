@@ -54,7 +54,7 @@ Itratable Data
                     - programs    --[2](program-id)         [array]
                         <- program-id                       ID
                         -> program-name                     'string'
-                        -> program-time                     Timestamp
+                        <- program-time                     Timestamp
                         -> program-cover                    'Url'
         
         Episodes                  4
