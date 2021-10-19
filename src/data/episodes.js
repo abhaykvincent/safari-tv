@@ -1,15 +1,47 @@
-export default episodes={
-    programs=[
+const episodes={
+    programs:[
         {
-            programId='1',
-            availableEpisodes={
-                episodeId='1_1',
-                episodeNo=1,
-                episodeName='',
-                episodeCover='',
-                episodePremire=''
-
-            }
+            programId:'movie-classic',
+        },
+        {
+            programId:'military',
+        },
+        {
+            programId:'sancharam'
+        },
+        {
+            programId:'charitram-enniloode'
+        },
+        {
+            programId:'around-the-world-in-30-minutes'
+        },
+        {
+            programId:'oru-sanchariyude-diary-kurippukal'
+        },
+        {
+            programId:'history'
+        },
+        {
+            programId:'opera-house'
+        },
+        {
+            programId:'animal-kingdom'
+        },
+        {
+            programId:'charithram-chalachithram'
+        },
+        {
+            programId:'smrithi'
+        },
+        {
+            programId:'location-hunt'
+        },
+        {
+            programId:'aa-yathrayil'
+        },
+        {
+            programId:'movies-on-the-road'
         },
     ]
 }
+export default  episodes.programs;

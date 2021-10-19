@@ -1,13 +1,25 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './featuredProgramWithCover.scss'
+import programs from '../../data/programs';
 
-function FeaturedProgramWithCover() {
+function FeaturedProgramWithCover(props) {
+    const [currentProgram, setCurrentProgram] = useState({})
+
+    useEffect(() => {
+        let selectedProgram=programs.filter(program => program.programId ===  props.program )
+        if(selectedProgram){
+            setCurrentProgram(selectedProgram[0])
+        } 
+    }, [props])
+    
+      
+
     return (
         <div className="featured-program no-scrollbar">
                     <div className="program-episodes">
 
                         <div className="program-episode">
-                            <div className="program-cover"></div>
+                            <div className="program-cover" style={{backgroundImage: `url(${currentProgram?currentProgram.programCover:''})`}}></div>
                             <div className="program-meta"></div>
                         </div>
                         <div className="program-episode">
@@ -47,7 +59,7 @@ function FeaturedProgramWithCover() {
                         </div>
                         
                     </div>
-                    <div className="featured-program-meta">Movie Classic</div>
+                    <div className="featured-program-meta">{currentProgram?currentProgram.programName:''}</div>
                 </div>
                 
     )

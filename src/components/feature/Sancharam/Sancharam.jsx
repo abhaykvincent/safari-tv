@@ -2,6 +2,7 @@ import React from 'react'
 import './sancharam.scss'
 
 import FeaturedProgramWithCover from '../../featured/featuredProgramWithCover';
+import FeaturedPrograms from '../../featured/featuredPrograms';
 function Sancharam() {
     return (
         <div className="sancharam">
@@ -91,16 +92,8 @@ function Sancharam() {
                 <div className="sancharam-cover"></div>
             </div>
             </div>
-            <div className="featured-programs">
-
-                <FeaturedProgramWithCover/>
-                <FeaturedProgramWithCover/>
-                <FeaturedProgramWithCover/>
-                <FeaturedProgramWithCover/>
-                <FeaturedProgramWithCover/>
-                <FeaturedProgramWithCover/>
-                <h1>സഫാരി കാണൂ ലൈവായി www.safaritvchannel.comലൂടെയും ആൻഡ്രോയ്ഡ് ഐഫോൺ ആപ്പിലൂടെ </h1>
-            </div>
+            
+            <FeaturedPrograms/>
 
 
             

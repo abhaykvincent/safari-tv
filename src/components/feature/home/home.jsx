@@ -2,7 +2,13 @@ import React from 'react'
 import './home.scss'
 
 import FeaturedProgramWithCover from '../../featured/featuredProgramWithCover';
+import episodes from '../../../data/episodes';
+import FeaturedPrograms from '../../featured/featuredPrograms';
 function Home() {
+    const programsHTML= episodes.map(program=>{
+        return <FeaturedProgramWithCover program={program.programId}/>
+    })
+    console.log(programsHTML)
     return (
         <div className="home">
             
@@ -17,15 +23,7 @@ function Home() {
                 <div className="player"></div>
             </div>
             </div>
-            <div className="featured-programs">
-                <FeaturedProgramWithCover/>
-                <FeaturedProgramWithCover/>
-                <FeaturedProgramWithCover/>
-                <FeaturedProgramWithCover/>
-                <FeaturedProgramWithCover/>
-                <FeaturedProgramWithCover/>
-                <h1>സഫാരി കാണൂ ലൈവായി www.safaritvchannel.comലൂടെയും ആൻഡ്രോയ്ഡ് ഐഫോൺ ആപ്പിലൂടെ </h1>
-            </div>
+            <FeaturedPrograms/>
 
 
             

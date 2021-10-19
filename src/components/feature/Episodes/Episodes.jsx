@@ -1,19 +1,17 @@
 import React from 'react'
 import FeaturedProgramWithCover from '../../featured/featuredProgramWithCover';
+import episodes from '../../../data/episodes';
+import FeaturedPrograms from '../../featured/featuredPrograms';
 
 function Episodes() {
+    const programsHTML= episodes.map(program=>{
+        return <FeaturedProgramWithCover program={program.programId}/>
+    })
     return (
         <div className="episodes">
             
-            <div className="featured-programs">
-                <FeaturedProgramWithCover/>
-                <FeaturedProgramWithCover/>
-                <FeaturedProgramWithCover/>
-                <FeaturedProgramWithCover/>
-                <FeaturedProgramWithCover/>
-                <FeaturedProgramWithCover/>
-                <h1>സഫാരി കാണൂ ലൈവായി www.safaritvchannel.comലൂടെയും ആൻഡ്രോയ്ഡ് ഐഫോൺ ആപ്പിലൂടെ </h1>
-            </div>
+            
+            <FeaturedPrograms/>
         </div>
     )
 }
